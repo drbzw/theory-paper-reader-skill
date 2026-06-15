@@ -1,0 +1,6 @@
+interface:
+  display_name: Theory Paper Reader
+  short_description: Teach, classify, and archive a theory paper from PDF or Markdown.
+
+policy:
+  allow_implicit_invocation: false
