@@ -35,6 +35,13 @@ Never present inferred or background material as if the paper stated it. Never i
 
 When the user supplies a Markdown file, treat it as the primary source. MinerU Markdown often preserves equations, headings, tables, and image links better than generic PDF extraction.
 
+Before analyzing any Markdown input, read and apply both:
+
+- `references/mineru_markdown_rules.md`
+- `references/evidence_rules.md`
+
+These files are mandatory for Markdown-mode analysis. They govern how to resolve relative assets, handle equations and tables, construct evidence locators, detect conversion artifacts, and report discrepancies between Markdown and PDF.
+
 Run:
 
 ```bash
