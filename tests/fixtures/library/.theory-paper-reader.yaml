@@ -1,0 +1,16 @@
+version: 1
+library_name: Test Theory Library
+paths:
+  analysis_root: analysis_runs
+  paper_library: paper_library
+  model_library: model_library
+  update_queue: update_queue
+  indexes: indexes
+  input_root: inputs
+input_policy:
+  copy_original_source: false
+  retain_source_manifest: true
+library_policy:
+  auto_promote_paper_card: false
+  auto_modify_model_library: false
+  require_human_approval: true
